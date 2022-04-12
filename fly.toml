@@ -37,7 +37,7 @@ services = []
 
 [env]
   BACKEND_STORE = "consul"
-  PRIMARY_REGION = "ord"
+  PRIMARY_REGION = "cdg"
 
 [experimental]
   allowed_public_ports = []
