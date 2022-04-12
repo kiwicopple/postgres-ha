@@ -22,7 +22,7 @@ FROM flyio/stolon:2e719de as stolon
 
 FROM wrouesnel/postgres_exporter:latest AS postgres_exporter
 
-FROM postgres:${PG_VERSION}
+FROM supabase/postgres:latest
 ARG VERSION 
 ARG POSTGIS_MAJOR=3
 
