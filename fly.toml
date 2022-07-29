@@ -1,4 +1,6 @@
-app = "postgres-ha-example"
+# fly.toml file generated for fly-supabase-pg on 2022-04-12T20:01:33+02:00
+
+app = "fly-supabase-pg"
 
 kill_signal = "SIGTERM"
 kill_timeout = 300
